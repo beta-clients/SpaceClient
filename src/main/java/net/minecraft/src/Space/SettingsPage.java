@@ -25,7 +25,6 @@ public class SettingsPage extends GuiScreen {
 		this.controlList.add(new GuiSlider(3, 162, 42, null, "FastFly speed: " + Double.toString(((FastFly)Client.hacks[5]).speed), ((float)((FastFly)Client.hacks[5]).speed) / 5.0F, 4));
 		this.controlList.add(new GuiSlider(4, 2, 72, null, "Scaffold radius: " + Integer.toString(((Scaffold)Client.hacks[20]).radius), ((float)((Scaffold)Client.hacks[20]).radius) / 2.0F, 5));
 		this.controlList.add(new GuiSlider(5, 162, 72, null, "MaxMovPacketAmount: " + ((Packet19Sender)Client.hacks[33]).maxMovPacketAmount, ((float)((Packet19Sender)Client.hacks[33]).maxMovPacketAmount) / 200.0F, 6));
-		this.controlList.add(new GuiSlider(6, 2, 102, null, "Movement speed: " + ((Packet19Sender)Client.hacks[33]).speed, ((float)((Packet19Sender)Client.hacks[33]).speed) / 20.0F, 7));
 		this.addFirstPageButton(7, 2, 132);
 	}
 
