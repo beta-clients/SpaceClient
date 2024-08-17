@@ -72,10 +72,6 @@ public class GuiSlider extends GuiButton {
 					((Packet19Sender)Client.hacks[33]).maxMovPacketAmount = Math.round(this.sliderValue * 199) + 1;
 					this.displayString = "MaxMovPacketAmount: " + ((Packet19Sender)Client.hacks[33]).maxMovPacketAmount;
 				}
-				else if(mode == 7){
-					((Packet19Sender)Client.hacks[33]).speed = Math.round(this.sliderValue * 190.0) / 10.0 + 1.0;
-					this.displayString = "Movement speed: " + ((Packet19Sender)Client.hacks[33]).speed;
-				}
 			}
 
 			GL11.glColor4f(1.0F, 1.0F, 1.0F, 1.0F);
