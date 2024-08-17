@@ -10,7 +10,6 @@ import net.minecraft.src.Space.event.events.EventPacketSend;
 public class Packet19Sender extends Hack{
     public int packetAmount = 0;
     public int maxMovPacketAmount = 30;
-    public double speed = 1.0;
     public Packet19Sender(int key){
         super("Packet19Sender", key);
 	    this.category = Category.other;
