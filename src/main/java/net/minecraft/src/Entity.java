@@ -1,7 +1,6 @@
 package net.minecraft.src;
 
 import net.minecraft.src.Space.Client;
-import net.minecraft.src.Space.hacks.Packet19Sender;
 
 import java.util.List;
 import java.util.Random;
@@ -270,10 +269,6 @@ public abstract class Entity {
 				this.motionX = 0.0D;
 				this.motionY = 0.0D;
 				this.motionZ = 0.0D;
-			}
-			if(Client.hacks[33].isToggled){
-				var1 *= ((Packet19Sender)Client.hacks[33]).speed;
-				var5 *= ((Packet19Sender)Client.hacks[33]).speed;
 			}
 			double var11 = var1;
 			double var13 = var3;
